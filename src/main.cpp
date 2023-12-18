@@ -3,10 +3,7 @@
 #include <iostream>
 #include "../lib/clock.hpp"
 
-#define SHELLSCRIPT "\
-#/bin/bash \n\
-killall code \n\
-"
+#define SHELLSCRIPT "killall code"
 
 int main(){
     while(true){
