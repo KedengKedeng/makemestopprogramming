@@ -12,3 +12,9 @@ int getHour(){
     tm *local = localtime(&now);
     return local->tm_hour;
 }
+
+int getDay(){
+    const time_t now = time(0);
+    tm *local = localtime(&now);
+    return local->tm_wday;
+}
