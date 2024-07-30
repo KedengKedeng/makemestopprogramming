@@ -12,7 +12,7 @@ int main(){
             if (status == 0)
                 system("notify-send 'Code detected outside of office hours!!!'");
             delay(10);
-        }else {
+        } else {
             std::cout << "Within office hours... Safe for now..." << std::endl;
             delay(600);
         }
